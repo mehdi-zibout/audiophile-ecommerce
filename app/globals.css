@@ -5,7 +5,7 @@
 
 @layer components {
   .btn {
-    @apply  text-subtitle leading-[17.76px] pl-[1.96875rem] pr-[1.84375rem] py-[0.9375rem] uppercase transition-all duration-300
+    @apply  text-subtitle leading-[17.76px] pl-[31.5px] pr-[29.5px] py-[15px] uppercase transition-all duration-300
   } 
   .btn-primary {
     @apply bg-[#D87D4A] hover:bg-[#FBAF85] text-white
@@ -15,5 +15,11 @@
   }
   .btn-ghost {
     @apply text-black text-opacity-50 hover:text-[#D87D4A] hover:text-opacity-100
+  }
+  .input {
+    @apply text-[0.875rem] leading-[19.12px] tracking-[-0.25px] text-black placeholder:text-opacity-40 rounded-lg border border-[#CFCFCF] pt-[18px] pb-[19px] px-6 outline-none shadow-none focus-within:border-[#D87D4A] 
+  }
+  .input-error {
+    @apply border-[#CD2C2C] border-2 focus-within:border-[#CD2C2C]
   }
 }

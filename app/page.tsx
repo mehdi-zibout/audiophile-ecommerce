@@ -8,7 +8,7 @@ export default function Home() {
   return (
     <main
       className={
-        "bg-slate-800 text-white text-3xl font-bold w-screen h-screen " +
+        "bg-white text-white text-3xl font-bold w-screen h-screen " +
         manrope.className
       }
     >
@@ -21,6 +21,13 @@ export default function Home() {
       </div>
       <div className="p-4">
         <button className="btn btn-ghost">shop</button>
+      </div>
+      <div className="p-4">
+        <input
+          type="text"
+          placeholder="insert your name"
+          className="input input-error"
+        />
       </div>
     </main>
   );
