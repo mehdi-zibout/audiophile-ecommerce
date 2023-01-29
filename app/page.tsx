@@ -1,6 +1,7 @@
 import Image from "next/image";
 import { Manrope } from "@next/font/google";
 import styles from "./page.module.css";
+import NumbersCounter from "@/components/NumbersCounter";
 
 const manrope = Manrope({ subsets: ["latin"] });
 
@@ -23,11 +24,10 @@ export default function Home() {
         <button className="btn btn-ghost">shop</button>
       </div>
       <div className="p-4">
-        <input
-          type="text"
-          placeholder="insert your name"
-          className="input input-error"
-        />
+        <input type="text" placeholder="insert your name" className="input " />
+      </div>
+      <div className="p-4">
+        <NumbersCounter />
       </div>
     </main>
   );
