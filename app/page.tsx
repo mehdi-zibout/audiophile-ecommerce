@@ -13,6 +13,15 @@ export default function Home() {
       }
     >
       Hello, World!
+      <div className="p-4">
+        <button className="btn btn-primary">see product</button>
+      </div>
+      <div className="p-4">
+        <button className="btn btn-secondary">see product</button>
+      </div>
+      <div className="p-4">
+        <button className="btn btn-ghost">shop</button>
+      </div>
     </main>
   );
 }

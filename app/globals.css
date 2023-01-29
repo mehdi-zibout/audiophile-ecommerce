@@ -5,6 +5,15 @@
 
 @layer components {
   .btn {
-    @apply bg-slate-700
+    @apply  text-subtitle leading-[17.76px] pl-[1.96875rem] pr-[1.84375rem] py-[0.9375rem] uppercase transition-all duration-300
   } 
+  .btn-primary {
+    @apply bg-[#D87D4A] hover:bg-[#FBAF85] text-white
+  }
+  .btn-secondary {
+    @apply  text-black hover:bg-black hover:text-white border border-black
+  }
+  .btn-ghost {
+    @apply text-black text-opacity-50 hover:text-[#D87D4A] hover:text-opacity-100
+  }
 }
