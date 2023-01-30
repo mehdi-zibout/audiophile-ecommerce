@@ -9,6 +9,10 @@ module.exports = {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
+    screens: {
+      tablet: "700px",
+      desktop: "1275px",
+    },
     fontSize: {
       h1: [
         "3.5rem",

@@ -2,6 +2,7 @@ import Image from "next/image";
 import { Manrope } from "@next/font/google";
 import styles from "./page.module.css";
 import NumbersCounter from "@/components/NumbersCounter";
+import About from "@/components/About";
 
 const manrope = Manrope({ subsets: ["latin"] });
 
@@ -28,6 +29,9 @@ export default function Home() {
       </div>
       <div className="p-4">
         <NumbersCounter />
+      </div>
+      <div className="py-4 px-6 tablet:px-10 desktop:px-40">
+        <About />
       </div>
     </main>
   );

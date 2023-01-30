@@ -11,7 +11,7 @@ function NumbersCounter() {
         onClick={() => {
           numbers <= 0 ? setNumbers(0) : setNumbers((numbers) => numbers - 1);
         }}
-        className="disabled:cursor-not-allowed text-opacity-25 text-black hover:text-[#D87D4A] hover:text-opacity-100"
+        className="disabled:cursor-default text-opacity-25 text-black hover:text-[#D87D4A] hover:text-opacity-100"
       >
         -
       </button>
