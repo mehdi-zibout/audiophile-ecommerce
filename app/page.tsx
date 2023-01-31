@@ -3,17 +3,18 @@ import { Manrope } from "@next/font/google";
 import styles from "./page.module.css";
 import NumbersCounter from "@/components/NumbersCounter";
 import About from "@/components/About";
+import Navbar from "@/components/Navbar";
 
 const manrope = Manrope({ subsets: ["latin"] });
 
 export default function Home() {
   return (
     <main
-      className={
-        "bg-white text-white text-3xl font-bold w-screen h-screen " +
-        manrope.className
-      }
+      className={"bg-white  font-bold w-screen h-screen " + manrope.className}
     >
+      <div className="w-screem bg-black tablet:px-10 desktop:px-[165px] h-64">
+        <Navbar />
+      </div>
       Hello, World!
       <div className="p-4">
         <button className="btn btn-primary">see product</button>
