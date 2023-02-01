@@ -5,6 +5,8 @@ import NumbersCounter from "@/components/NumbersCounter";
 import About from "@/components/About";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
+import CatButton from "@/components/CatButton";
+import catImage from "@/assets/shared/desktop/image-category-thumbnail-headphones.png";
 
 const manrope = Manrope({ subsets: ["latin"] });
 
@@ -36,6 +38,14 @@ export default function Home() {
         </div>
         <div className="p-4">
           <NumbersCounter />
+        </div>
+        <div className="p-4">
+          <CatButton
+            title={"headphones"}
+            link={"#"}
+            image={catImage}
+            imageClass={"desktop:-top-20 -top-14 desktop:w-[220px]  w-[150px] "}
+          />
         </div>
         <div className="py-4 px-6 tablet:px-10 desktop:px-40">
           <About />
