@@ -1,7 +1,7 @@
 import { SvgCart, SvgHamburger, SvgLogo } from "@/assets/Icons";
 import Link from "next/link";
 
-const navItems = [
+export const navItems = [
   { id: 1, title: "home", link: "#" },
   { id: 2, title: "headphones", link: "#" },
   { id: 3, title: "speakers", link: "#" },
