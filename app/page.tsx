@@ -7,6 +7,7 @@ import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import CatButton from "@/components/CatButton";
 import catImage from "@/assets/shared/desktop/image-category-thumbnail-headphones.png";
+import Hero from "@/components/Hero";
 
 const manrope = Manrope({ subsets: ["latin"] });
 
@@ -16,8 +17,9 @@ export default function Home() {
       <main
         className={"bg-white  font-bold w-screen h-screen " + manrope.className}
       >
-        <div className="w-screem bg-black tablet:px-10 desktop:px-[165px] h-64">
+        <div className=" bg-[#191919] tablet:px-10 desktop:px-[165px] px-0 ">
           <Navbar />
+          <Hero />
         </div>
         Hello, World!
         <div className="p-4">

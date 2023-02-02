@@ -9,13 +9,13 @@ export const navItems = [
 ];
 function Navbar() {
   return (
-    <header className="flex justify-between items-center py-8  desktop:pb-[36px] border-b border-white border-opacity-20 ">
+    <header className="flex justify-between px-6 tablet:px-0 items-center py-8  desktop:pb-[36px] border-b border-white border-opacity-[10.4%] desktop:border-opacity-20 ">
       <nav className="tablet:hidden">
         <button aria-label="hamburger menu">
           <SvgHamburger />
         </button>
       </nav>
-      <nav className="flex">
+      <nav className="flex ">
         <button
           aria-label="hamburger menu"
           className="hidden tablet:inline-block desktop:hidden pr-10"
@@ -30,7 +30,7 @@ function Navbar() {
         {navItems.map((navItem) => (
           <li
             key={navItem.id}
-            className="mx-[34px] first-of-type:ml-0 last-of-type:mr-0"
+            className="mx-[18px] first-of-type:ml-0 last-of-type:mr-0"
           >
             <nav className="hover:text-[#D87D4A] transition duration-300">
               <Link href={navItem.link}>{navItem.title}</Link>
