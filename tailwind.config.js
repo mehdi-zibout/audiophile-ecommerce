@@ -48,7 +48,13 @@ module.exports = {
       ],
       body: ["0.9375rem", { fontWeight: 500, lineHeight: "25px" }],
     },
-    extend: {},
+    extend: {
+      keyframes: {
+        scale: {
+          "50%": { transform: "scale(1.1)" },
+        },
+      },
+    },
   },
   plugins: [],
 };

@@ -26,3 +26,10 @@
     @apply border-[#CD2C2C] border-2 focus-within:border-[#CD2C2C]
   }
 }
+
+.cercles {
+  background-image: url(/assets/home/desktop/pattern-circles.svg);
+  background-position-x: center;
+  background-position-y: -120px;
+  background-repeat: no-repeat;
+}

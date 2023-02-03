@@ -78,7 +78,7 @@ export function SvgIconRightArrow(props: SVGProps<SVGSVGElement>) {
 
 export function SvgCerclesPattern(props: SVGProps<SVGSVGElement>) {
   return (
-    <svg {...props} width="944" height="944" xmlns="http://www.w3.org/2000/svg">
+    <svg {...props} width="558" height="558" xmlns="http://www.w3.org/2000/svg">
       <g stroke="#FFF" fill="none" fillRule="evenodd" opacity=".202">
         <circle cx="472" cy="472" r="235.5" />
         <circle cx="472" cy="472" r="270.5" />
