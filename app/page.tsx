@@ -8,6 +8,7 @@ import Footer from "@/components/Footer";
 import CatButton from "@/components/CatButton";
 import catImage from "@/assets/shared/desktop/image-category-thumbnail-headphones.png";
 import Hero from "@/components/Hero";
+import Showcase1 from "@/components/Showcase1";
 
 const manrope = Manrope({ subsets: ["latin"] });
 
@@ -21,7 +22,9 @@ export default function Home() {
           <Navbar />
           <Hero />
         </div>
-        Hello, World!
+        <div className="my-4 px-6">
+          <Showcase1 />
+        </div>
         <div className="p-4">
           <button className="btn btn-primary">see product</button>
         </div>
