@@ -22,7 +22,7 @@ export default function Home() {
           <Navbar />
           <Hero />
         </div>
-        <div className="my-4 px-6 tablet:px-10">
+        <div className="my-4 px-6 tablet:px-10 desktop:px-[165px]">
           <Showcase1 />
         </div>
         <div className="p-4">
