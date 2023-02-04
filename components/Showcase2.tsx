@@ -5,9 +5,9 @@ import Image from "next/image";
 
 function Showcase2() {
   return (
-    <div className="bg-[#F1F1F1] overflow-hidden py-[101px] px-6 rounded-lg relative flex flex-col justify-center items-start">
+    <div className="bg-[#F1F1F1] overflow-hidden py-[101px] px-6 tablet:px-16 desktop:px-[95px] rounded-lg relative flex flex-col justify-center items-start">
       <div
-        className={`w-full h-full absolute inset-0 bg-no-repeat bg-[size:327px_320px] bg-[url(/assets/home/mobile/image-speaker-zx7.jpg)] `}
+        className={`w-full h-full absolute left-0 top-0 bg-no-repeat bg-cover bg-[url(/assets/home/mobile/image-speaker-zx7.jpg)] tablet:bg-[url(/assets/home/tablet/image-speaker-zx7.jpg)] desktop:bg-[url(/assets/home/desktop/image-speaker-zx7.jpg)] `}
       ></div>
       <div className="relative z-10">
         <h2 className="text-[1.75rem] tracking-[2px] mb-8 ">ZX7 SPEAKER</h2>
