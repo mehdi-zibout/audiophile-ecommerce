@@ -9,6 +9,7 @@ import CatButton from "@/components/CatButton";
 import catImage from "@/assets/shared/desktop/image-category-thumbnail-headphones.png";
 import Hero from "@/components/Hero";
 import Showcase1 from "@/components/Showcase1";
+import Showcase2 from "@/components/Showcase2";
 
 const manrope = Manrope({ subsets: ["latin"] });
 
@@ -24,6 +25,9 @@ export default function Home() {
         </div>
         <div className="my-4 px-6 tablet:px-10 desktop:px-[165px]">
           <Showcase1 />
+        </div>
+        <div className="my-4 px-6 tablet:px-10 desktop:px-[165px]">
+          <Showcase2 />
         </div>
         <div className="p-4">
           <button className="btn btn-primary">see product</button>

@@ -31,7 +31,7 @@ function Showcase1() {
         width={197.21}
       />
       <Image
-        src={ImgTablet}
+        src={ImgDesktop}
         alt="ZX9 SPEAKER"
         className="relative  -bottom-[44px]   z-10 hidden desktop:block"
         height={493}
