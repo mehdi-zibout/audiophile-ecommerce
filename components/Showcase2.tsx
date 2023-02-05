@@ -1,8 +1,3 @@
-import ImgDesktop from "@/assets/home/desktop/image-speaker-zx7.png";
-import ImgMobile from "@/assets/home/mobile/image-speaker-zx7.jpg";
-import ImgTablet from "@/assets/home/tablet/image-speaker-zx7.png";
-import Image from "next/image";
-
 function Showcase2() {
   return (
     <div className="bg-[#F1F1F1] overflow-hidden py-[101px] px-6 tablet:px-16 desktop:px-[95px] rounded-lg relative flex flex-col justify-center items-start">
