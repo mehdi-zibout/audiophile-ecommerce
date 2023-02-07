@@ -13,16 +13,12 @@ import Showcase2 from "@/components/Showcase2";
 import Showcase3 from "@/components/Showcase3";
 import ProductCatView from "@/components/ProductCatView";
 
-const manrope = Manrope({ subsets: ["latin"] });
-
 export default function Home() {
   return (
     <>
-      <main
-        className={"bg-white  font-bold w-screen h-screen " + manrope.className}
-      >
-        <div className=" bg-[#191919] tablet:px-10 desktop:px-[165px] px-0 ">
-          <Navbar />
+      <main className={"bg-white  font-bold min-h-screen "}>
+        hello world
+        {/* <div className=" bg-[#191919] tablet:px-10 desktop:px-[165px] px-0 ">
           <Hero />
         </div>
         <div className="my-4 px-6 tablet:px-10 desktop:px-[165px]">
@@ -66,8 +62,7 @@ export default function Home() {
         </div>
         <div className="py-4 px-6 tablet:px-10 desktop:px-40">
           <About />
-        </div>
-        <Footer />
+        </div> */}
       </main>
     </>
   );
