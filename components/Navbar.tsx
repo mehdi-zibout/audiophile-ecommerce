@@ -9,7 +9,7 @@ export const navItems = [
 ];
 function Navbar() {
   return (
-    <header className="flex justify-between bg-[#191919] desktop:px-[165px] px-6 tablet:px-0 items-center py-8  desktop:pb-[36px] border-b border-white border-opacity-[10.4%] desktop:border-opacity-20 ">
+    <header className="flex justify-between bg-[#191919] desktop:px-[165px] px-6 tablet:px-10 items-center py-8  desktop:pb-[36px] border-b border-white border-opacity-[10.4%] desktop:border-opacity-20 ">
       <nav className="tablet:hidden">
         <button aria-label="hamburger menu">
           <SvgHamburger />

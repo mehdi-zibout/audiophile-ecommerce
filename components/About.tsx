@@ -5,7 +5,7 @@ import imageBestGearTablet from "../public/assets/shared/tablet/image-best-gear.
 import imageBestGearMobile from "../public/assets/shared/mobile/image-best-gear.jpg";
 function About() {
   return (
-    <div className="flex flex-col-reverse desktop:flex-row justify-center items-center ">
+    <div className="flex flex-col-reverse desktop:flex-row justify-center items-center px-6 tablet:px-10  mb-[120px] desktop:mb-[200px] ">
       <div className="tablet:px-[55px] desktop:pl-0 desktop:pr-[125px] desktop:w-[570px] flex   h-full flex-col items-center  justify-center text-center desktop:text-left">
         <h2 className="uppercase text-h4 tablet:text-h2 text-black text-center desktop:text-left  w-full">
           Bringing you the <span className="text-[#D87D4A]">best</span> audio

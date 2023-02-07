@@ -3,9 +3,9 @@ import ImgDesktop from "@/assets/home/desktop/image-earphones-yx1.jpg";
 import ImgMobile from "@/assets/home/mobile/image-earphones-yx1.jpg";
 import ImgTablet from "@/assets/home/tablet/image-earphones-yx1.jpg";
 
-function Showcase3() {
+function Showcase3({ className }: { className?: string }) {
   return (
-    <div className="tablet:flex">
+    <div className={"tablet:flex " + className}>
       <div
         className={`rounded-lg overflow-hidden bg-no-repeat bg-cover bg-[url(/assets/home/mobile/image-earphones-yx1.jpg)] tablet:bg-[url(/assets/home/tablet/image-earphones-yx1.jpg)] desktop:bg-[url(/assets/home/desktop/image-earphones-yx1.jpg)] tablet:w-[50%] h-[200px] tablet:h-[320px]`}
       ></div>
