@@ -20,10 +20,13 @@
     @apply text-black text-opacity-50 hover:text-[#D87D4A] hover:text-opacity-100
   }
   .input {
-    @apply text-[0.875rem] leading-[19.12px] tracking-[-0.25px] text-black placeholder:text-opacity-40 rounded-lg border border-[#CFCFCF] pt-[18px] pb-[19px] px-6 outline-none shadow-none focus-within:border-[#D87D4A] 
+    @apply w-full text-[0.875rem] leading-[19.12px] tracking-[-0.25px] text-black placeholder:font-bold placeholder:tracking-[-0.25px] placeholder:text-opacity-40 rounded-lg border border-[#CFCFCF] pt-[18px] pb-[19px] px-6 outline-none shadow-none focus-within:border-[#D87D4A] 
   }
   .input-error {
     @apply border-[#CD2C2C] border-2 focus-within:border-[#CD2C2C]
+  }
+  .input-label {
+    @apply text-[0.75rem] font-bold tracking-[-0.21px] text-black
   }
 }
 
